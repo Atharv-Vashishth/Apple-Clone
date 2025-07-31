@@ -1,0 +1,314 @@
+*{
+    border: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(245, 245, 247);
+
+}
+.navbar{
+    display: flex;
+    height: 44px;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(245, 245, 247);
+}
+.navbar div a{
+        text-decoration: none;
+        color: rgb(98, 98, 98);
+        align-content: center;
+        margin: 0px;
+        font-size: large;
+}
+#apple{
+    height: 20px;
+    width: 34px;
+}
+#seeoffers{
+    text-decoration: none;
+    color: rgb(51, 106, 199);
+}
+#seeoffers:hover{
+    text-decoration: underline;
+}
+.secline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    height: 50px;
+    padding: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.intro_row{
+    display: flex;
+    align-items:end;
+}
+#intro_left_side{
+    display: flex;
+    width: 640px;
+    height: 248px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    padding-right: 69.5px;
+    padding-left: 69.5px;
+    font-size: x-large;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 0px;
+    margin-top: 0px;
+    color: rgb(98, 98, 98);
+}
+.chat_bot{
+    display: flex;
+    margin-top: 0px;
+    margin-left: 295px;
+    margin-bottom: 15px;
+}
+#bot{
+    height: 36px;
+}
+.bot_content{
+    margin-left: 10px;
+    font-weight: 500;
+}
+.bot_content a{
+    text-decoration: none;
+    color: rgb(51, 106, 199);
+    font-weight: 100;
+}
+.near_store{
+    display: flex;
+    margin-top: 0px;
+    margin-left: 295px;
+    padding-bottom: 80px;
+}
+.near_store_content{
+    margin-left: 10px;
+    font-weight: 500;
+}
+.near_store_content a{
+    text-decoration: none;
+    color: rgb(51, 106, 199);
+    font-weight: 100;
+}
+#location{
+    height: 36px;
+}
+.Products{
+    display: flex;
+    width: 1044px;
+    height: 204px;
+    padding: 16px 0px 40px;
+    margin-left: 150px;
+}
+.Products div div a:hover{
+    text-decoration: underline;
+}
+.Products div div img{
+    width: 120px;
+    height: 78px;
+    padding: 18px 8px 16px;
+}
+.Products div div a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+.Products div{
+    width: 136px;
+    height: 98px;
+    padding-bottom: 16px;
+}
+.middle_lines{
+    color: rgb(98, 98, 98);
+    display: flex;
+    padding-left: 170px;
+    font-size: large;
+}
+.latest div a img{
+    width: 400px;
+    height: 500px;
+    border-radius: 25px;
+    margin: 12px;
+}
+.latest{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.help-is-here{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.help-is-here div a img {
+    display: flex;
+    width: 480px;
+    height: 500px;
+    border-radius: 25px;
+    margin: 12px;
+
+}
+.apple-store-difference{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.apple-store-difference div a img{
+    display: flex;
+    width: 313px;
+    height: 240px;
+    border-radius: 25px;
+    margin: 12px;
+}
+.accessories-line{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.accessories-line div a img{
+    display: flex;
+    width: 313px; 
+    height: 500px;   
+    border-radius: 25px;
+    margin: 12px;
+}
+.loud-and-clear{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.loud-and-clear div a img{
+    display: flex;
+    width: 313px; 
+    height: 500px;   
+    border-radius: 25px;
+    margin: 12px;
+}
+.apple-experience{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.apple-experience div a img{
+    display: flex;
+    width: 480px; 
+    height: 500px;   
+    border-radius: 25px;
+    margin: 12px;   
+}
+.saving-and-offer{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.saving-and-offer div a img{
+    display: flex;
+    width: 400px; 
+    height: 500px;   
+    border-radius: 25px;
+    margin: 12px;    
+}
+.quick-link{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.quick-link div{
+    display: flex;
+    margin: 12px;
+    border: solid 1px ;   
+    border-radius: 25px;
+    border-color: rgb(98, 98, 98);
+}
+.quick-link div a{
+    display: flex;
+    height: 10px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+}
+.quick-link div a:hover{
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+.last-lines{
+    display: flex;
+    padding-right:200px;
+    padding-left: 200px; 
+    color: rgb(98, 98, 98);
+}
+.ending_line{
+    margin-left: 200px;
+    margin-right: 200px;
+    color: rgb(98, 98, 98);
+}
+.footer-logo{
+    margin-left: 190px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    padding-left: 50px;
+    margin-right: 350px;
+}
+.main1{
+    display: flex;
+    justify-content: space-between;
+}
+.main1 a{
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+}
+.main1:hover{
+    text-decoration: underline;
+}
+.main2{
+    display: flex;
+    justify-content: space-between;
+}
+.main3{
+    margin-top: 40px;
+    color: rgb(98, 98, 98);
+}
+.main3 a{
+    color: rgb(51, 106, 199);
+}
+.line{
+    margin-top: 20px;
+    color: rgb(98, 98, 98);
+    width: 1030px;
+}
+.copy{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: rgb(98, 98, 98);  
+}
+.copy a{
+    color: rgb(98, 98, 98);  
+    text-decoration: none;
+}
+.copy a:hover{
+    text-decoration: underline;
+}
+#india{
+    margin-left: 100px;
+    justify-content: flex-end;
+}
