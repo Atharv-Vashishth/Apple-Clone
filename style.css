@@ -4,8 +4,7 @@
     padding: 0px;
 }
 body{
-    background-color: rgb(245, 245, 247);
-
+    background-color:rgb(245, 245, 247);
 }
 .navbar{
     display: flex;
@@ -80,6 +79,9 @@ body{
     color: rgb(51, 106, 199);
     font-weight: 100;
 }
+.bot_content a:hover{
+    text-decoration: underline;
+}
 .near_store{
     display: flex;
     margin-top: 0px;
@@ -94,6 +96,9 @@ body{
     text-decoration: none;
     color: rgb(51, 106, 199);
     font-weight: 100;
+}
+.near_store_content a:hover{
+    text-decoration: underline;
 }
 #location{
     height: 36px;
@@ -135,6 +140,9 @@ body{
     height: 500px;
     border-radius: 25px;
     margin: 12px;
+}
+.overflow{
+    overflow-x: scroll;
 }
 .latest{
     display: flex;
@@ -276,7 +284,7 @@ body{
     text-decoration: none;
     color: rgb(98, 98, 98);
 }
-.main1:hover{
+.main1 a:hover{
     text-decoration: underline;
 }
 .main2{
